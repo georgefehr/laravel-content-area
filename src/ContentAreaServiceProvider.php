@@ -19,7 +19,7 @@ class ContentAreaServiceProvider extends ServiceProvider
 
         $this->loadMigrationsFrom(__DIR__.'/../condatabase/migrations');
 
-        $this->publishes([__DIR__.'/../resources/assets/js/ckeditor' => resource_path('assets/js/ckeditor')], 'contentarea');
+        $this->publishes([__DIR__.'/../resources/assets/js/ckeditor' => public_path('js/ckeditor')], 'contentarea');
 
         $this->publishes([__DIR__.'/../config/contentarea.php' => config_path('contentarea.php')], 'contentarea');
     }
