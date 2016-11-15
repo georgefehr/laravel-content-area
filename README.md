@@ -16,10 +16,7 @@ Then run `composer update` from your command line
 
 Add the following to the list of service providers in `app/config/app.php`
 ```php
-'providers' => array(
-    ...
-    'CirrusLab\LaravelContentArea\ContentAreaServiceProvider'
-)
+CirrusLab\LaravelContentArea\ContentAreaServiceProvider::class
 ```
 
 Run the publish command which will publish the config file and assets.
