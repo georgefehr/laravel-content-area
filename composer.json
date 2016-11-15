@@ -1,0 +1,20 @@
+
+{
+    "name": "cirruslab/laravel-content-area",
+    "description": "Adds an editable content area to Laravel.",
+    "type": "library",
+    "keywords": ["editable", "laravel", "blade", "contentarea"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "George Fehr",
+            "email": "george@cirruslab.com",
+            "homepage": "http://cirruslab.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Cirruslab\\LaravelContentArea\\": "src/"
+        }
+    }
+}
