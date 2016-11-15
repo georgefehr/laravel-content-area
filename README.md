@@ -36,7 +36,9 @@ Setup permissions for who has permissions to edit the content areas in `app/conf
 
 ## Usage
 Include the CKEditor javascript file in the head of your application layout file.
+```
     <script src="/js/ckeditor/ckeditor.js"></script>
+````
 
 Now you can simply use the `@content_area('area_name')` tag in your Blade template file. Note that the 'area_name' needs to be unique for each separate area, but you can add as many areas on a page as you want. 
 
