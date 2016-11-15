@@ -5,6 +5,7 @@
     "type": "library",
     "keywords": ["editable", "laravel", "blade", "contentarea"],
     "license": "MIT",
+    "minimum-stability": "dev",
     "authors": [
         {
             "name": "George Fehr",
